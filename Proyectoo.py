@@ -1,4 +1,3 @@
-
 nombre_materia= (input ("nombre de la materia :"))
 Cal_P1= float(input("Escribe calificación del primer parcial :"))
 Cal_P2= float(input("Escribe calificación del segundo parcial :"))
