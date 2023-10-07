@@ -1,15 +1,23 @@
-class promedio :
-    a= input ("¿Quieres calcular el promedio de una materia? (s/n):")
-    while a== "s":
-        materia=str(input("Nombre de la materia:"))
-        def calcular_Promedio (P1,P2,P3):
-            return (P1+P2+P3)/3
-        P1=float (input("Escribe la calificación del primer parcial: "))
-        P2=float (input("Escribe la calificación del segundo parcial: "))
-        P3=float (input("Escribe la calificación del tercer parcial: "))
-        print (f"La calificacion de la materia {materia} es : {calcular_Promedio(P1,P2,P3)}")
-        a=input ("¿Quieres calcular el promedio de otra materia?(s/n): ")
+def calcular_promedio(lista):
+    suma=0
+    for indice in range(1,len(lista)):
+        suma=suma+lista[indice] 
+    return suma/(len (lista)-1)
+def obtener_calificaciones(materias):
+    alumno=str(input("Escribe el nombre del alumno: "))
+    lista=[alumno]
+    for nombre in materias:
+        calificaciones=float (input(f"Escribe la calificación de {nombre}: "))
+        lista.append(calificaciones)
+    return lista 
+def main () :
+    repetir= input ("¿Quieres calcular el promedio de una materia? (s/n): ")
+    materias=["matematicas","espanol"]
+    while repetir== "s":
+        lista=obtener_calificaciones(materias)
+        print (f"La calificacion del alumno {lista[0]} es : {calcular_promedio(lista)}")
+        repetir=input ("¿Quieres calcular el promedio de otra materia?(s/n): ")
+        
     print ("Adios")
-promedio ()
-                  
-            
+    
+main()
