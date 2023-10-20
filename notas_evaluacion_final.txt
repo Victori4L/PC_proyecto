@@ -1,0 +1,31 @@
+Sub-Competencia: 
+componente: plantea una situación problema que le permite aplicar y demostrar sus conocimientos de programación (avance 1)
+Cambio realizado:
+Con el paso del tiempo fui cambiando mi proyecto pues al principio solo pedia la calificacion de 3 materias y daba el promedio, ahora hace diferentes funciones 
+Líneas de código donde se ve la corrección:
+Todo el codigo es diferente 
+
+Sub-Competencia: 
+componente: aplica estructuras condicionales para resolver un problema (avance 4)
+Error original:
+No habia puesto condicionales 
+Cambio realizado:
+Agregre condicionales para saber si el alumno reprueba o aprueba la materia 
+ if calcular_promedio(lista[1:]) >= 7.0:
+            print("El alumno ha aprobado.")
+        else:
+            print("El alumno ha reprobado.")
+ahi añadí el if 
+
+Líneas de código donde se ve la corrección: 24 a 28 
+
+Sub-Competencia: 
+Crea correctamente un repositorio de programación en línea (avance 1)
+Error original:
+Puse mi repositorio en privado y marcaba error al intentar abrirlo el profe 
+Cambio realizado:
+Lo cambie a publico para que se pudieran ver mis avances 
+Líneas de código donde se ve la corrección:
+En github en el repositorio, al abrir el link 
+
+Igual en esta entrega final añadi matrices en mi codigo
